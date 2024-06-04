@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+}
+
+h1{
+color: aqua;
+background-color: rgb(26, 26, 70);
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.image-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+.image-grid img:hover {
+    transform: scale(1.05);
+}
